@@ -1,0 +1,150 @@
+@import "vars";
+@import "fonts";
+@import "libs";
+
+::placeholder {
+    color: #666;
+}
+
+::selection {
+    background-color: $white;
+    color: #fff;
+}
+
+body {
+    font-size: 18px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.65;
+    font-family: $default-font;
+    overflow-x: hidden;
+    color: $text;
+    input, textarea {
+        border: #666 1px solid;
+        outline: none;
+        &:focus:required:invalid {
+            border-color: red;
+        }
+        &:required:valid {
+            border-color: green;
+        }
+    }
+}
+h1 {
+    /* Style for "Выжить" */
+    margin-top: 100px;
+    color: $accent;
+    font-family: Besom;
+    font-size: 180px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "В, ыжить" */
+    letter-spacing: 9px;
+}
+h2 {
+    margin-top: 26px;
+    /* Style for "любой цено" */
+    font-family: "Core Sans E -95 Black";
+    font-size: 68px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "любой цено" */
+    letter-spacing: 3.4px;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    &.img-width {
+        width: 100%;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+b, strong {
+    /*font-weight: bold;*/
+    /* Style for "Вс" */
+    margin-left: 6px;
+    color: #1b1916;
+    font-family: "Core Sans E -95 Black";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+}
+button {
+    margin-top: 65px;
+    width: 307px;
+    height: 73px;
+    background: url(../img/@1x/buuton.png);
+    border: none;
+    color: #ffffff;
+    font-family: "Core Sans E -95 Black";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "Р, искнуть" */
+    letter-spacing: 0.9px;
+}
+
+/*heder*/
+.heider {
+    padding: 0;
+    background: url(../img/@1x/Фон_параллакс.png) no-repeat 50% 50% ;
+    height: 100vh;
+}
+.navig {
+    padding-top: 22px;
+}
+.razmitie {
+    margin-top: 38px;
+    background: url(../img/@1x/spec_razmitie.png) no-repeat;
+    text-align: center;
+    /* Style for "спецкурс р" */
+    width: 351px;
+    height: 14px;
+
+}
+.razmitie p {
+    /* Style for "спецкурс" */
+
+    line-height: .5;
+    color: #ffffff;
+    font-family: "Core Sans E -45 Regular";
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "спецкурс" */
+    letter-spacing: 12.6px;
+}
+.navig--tel {
+    /* Style for "+7 (930) 4" */
+    padding-top: 26px;
+    font-family: "Core Sans E -55 Medium";
+    font-size: 24px;
+    font-weight: 400;
+}
+.yecend {
+    margin-left: 3px;
+    padding: 5px;
+    background: url(../img/@1x/yeckend.png);
+    /* Style for "Слой 2" */
+    width: 205px;
+    height: 40px;
+
+}
+.yecend--strong {
+    margin-left: 58px;
+}
+.yecend--p {
+    margin-left: 40px;
+    /* Style for "3 дня с ут" */
+    font-family: "Core Sans E -35 Light It";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+@import "media"; // Always at the end
