@@ -3,4 +3,13 @@
 @include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
 @include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
 @include font-face("Besom", "../fonts/Besom/Besom");
-@include font-face("CoreSansE-15Thin", "../fonts/CoreSansE/CoreSansE-15Thin");
+@include font-face("CoreSansE-15", "../fonts/CoreSansE/CoreSansE-15Thin");
+@include font-face("CoreSansE-25", "../fonts/CoreSansE/CoreSansE-25ExtraLight");
+@include font-face("CoreSansE-35", "../fonts/CoreSansE/CoreSansE-35Light");
+@include font-face("CoreSansE-35It", "../fonts/CoreSansE/CoreSansE-35LightIt");
+@include font-face("CoreSansE-45", "../fonts/CoreSansE/CoreSansE-45Regular");
+@include font-face("CoreSansE-55", "../fonts/CoreSansE/CoreSansE-55Medium");
+@include font-face("CoreSansE-65", "../fonts/CoreSansE/CoreSansE-65Bold");
+@include font-face("CoreSansE-75", "../fonts/CoreSansE/CoreSansE-75ExtraBold");
+@include font-face("CoreSansE-85", "../fonts/CoreSansE/CoreSansE-85Heavy");
+@include font-face("CoreSansE-95", "../fonts/CoreSansE/CoreSansE-95Black");
